@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="Style/bootstrap.min.css" />
+    <!-- Bootstrap -->
+    <!-- CSS -->
+    <link rel="stylesheet" href="Style/index.css" />
+    <!-- CSS -->
+    <title>Currency Exchange</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="text-center text-primary fw-bold fs-3">
+        Currency Converter
+      </header>
+      <form action="#">
+        <div class="amount">
+          <p class="danger-emphasis fw-semi-bold">Enter Amount:</p>
+          <input type="text" value="1" class="my-inp" />
+        </div>
+        <div class="drop-list">
+          <div class="from">
+            <p class="fw-semi-bold">From:</p>
+            <div class="select-box">
+              <select class="my-select"></select>
+            </div>
+          </div>
+          <div class="to">
+            <p class="fw-semi-bold">To:</p>
+            <div class="select-box">
+              <select class="my-box"></select>
+            </div>
+          </div>
+        </div>
+        <div class="exchange-rate my-div text-danger text-center fw-bold fs-5">
+          0.00
+        </div>
+        <button class="my-btn fw-bold">Get Exchange Rate</button>
+      </form>
+    </div>
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/index.js"></script>
+  </body>
+</html>
